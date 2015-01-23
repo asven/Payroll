@@ -13,3 +13,6 @@ c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\P
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\Payroll.pdb
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\Payroll_Content.g.cs
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\bin\Debug\SubSonic.Core.dll
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Payroll.exe.config
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug\Payroll.exe
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug\Payroll.pdb
