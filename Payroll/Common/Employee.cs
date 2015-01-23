@@ -16,6 +16,12 @@ namespace Payroll.Common
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
+        public double HourlyRate { get; set; }
+
+        public int TaxExemptions { get; set; }
+
+        public bool IsMarried { get; set; }
+
         [SubSonicIgnore]
         public string FullName
         {

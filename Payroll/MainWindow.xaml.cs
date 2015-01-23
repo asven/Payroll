@@ -37,5 +37,15 @@ namespace Payroll
 
             this.DataContext = new MainWindowViewModel();
         }
+
+        private void ComputePayButton_Click(object sender, RoutedEventArgs e)
+        {
+            ViewModel.ComputePay();
+        }
+
+        private void SavePayInfoButton_Click(object sender, RoutedEventArgs e)
+        {
+            ViewModel.SavePayPeriod();
+        }
     }
 }
