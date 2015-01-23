@@ -17,6 +17,7 @@ namespace Payroll.ViewModels
         public MainWindowViewModel()
         {
             this.AllEmployees = repo.All<Employee>().ToList();
+            SelectedEmployee = this.AllEmployees.Where(ae => ae.IsDefaultEmployee).First();
         }
 
 
@@ -24,7 +25,19 @@ namespace Payroll.ViewModels
 
         public List<Employee> AllEmployees { get; set; }
 
-        public double HoursWorked { get; set; }
+        private double hoursWorked;
+        public double HoursWorked 
+        {
+            get
+            {
+                return hoursWorked;
+            }
+            set
+            {
+                hoursWorked = value;
+                RaisePropertyChanged("HoursWorked");
+            }
+        }
 
         private PayPeriod payPeriod;
         public PayPeriod PayPeriod
@@ -37,7 +50,7 @@ namespace Payroll.ViewModels
             {
                 payPeriod = value;
                 RaisePropertyChanged("PayPeriod");
-                
+                RaisePropertyChanged("PayInfoVisibility");
             }
         }
 
@@ -74,12 +87,15 @@ namespace Payroll.ViewModels
             payPeriod.Hours = this.HoursWorked;
 
             this.PayPeriod = payPeriod;
-            RaisePropertyChanged("PayInfoVisibility");
         }
 
         internal void SavePayPeriod()
         {
             repo.Add<PayPeriod>(this.PayPeriod);
+
+            this.PayPeriod = null;
+
+            this.HoursWorked = 0;
         }
     }
 }

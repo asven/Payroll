@@ -46,27 +46,29 @@
             
             <TextBlock Text="Gross Amount: "  Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,5,0"></TextBlock>
 
-            <TextBlock Text="{Binding PayPeriod.GrossAmount}" Foreground="White" Grid.Column="1" VerticalAlignment="Center"></TextBlock>
+            <TextBlock Text="{Binding PayPeriod.GrossAmount, StringFormat=C}" Foreground="White" Grid.Column="1" VerticalAlignment="Center"></TextBlock>
 
             <TextBlock Text="Federal Withholding: " Grid.Row="1" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,5,0"></TextBlock>
 
-            <TextBlock Text="{Binding PayPeriod.FederalWithholding}" Grid.Row="1"  Foreground="White" Grid.Column="1" VerticalAlignment="Center"></TextBlock>
+            <TextBlock Text="{Binding PayPeriod.FederalWithholding, StringFormat=C}" Grid.Row="1"  Foreground="White" Grid.Column="1" VerticalAlignment="Center"></TextBlock>
 
-            <TextBlock Text="Medicare Withholding: " Grid.Row="2" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,5,0"></TextBlock>
+            <TextBlock Text="Social Security Withholding: " Grid.Row="2"  Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,5,0"></TextBlock>
 
-            <TextBlock Text="{Binding PayPeriod.MedicareWithholding}" Grid.Row="2" Foreground="White" Grid.Column="1" VerticalAlignment="Center"></TextBlock>
+            <TextBlock Text="{Binding PayPeriod.SocialSecurityWithholding, StringFormat=C}" Grid.Row="2" Foreground="White" Grid.Column="1" VerticalAlignment="Center"></TextBlock>
+            
+            <TextBlock Text="Medicare Withholding: " Grid.Row="3" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,5,0"></TextBlock>
 
-            <TextBlock Text="Social Security Withholding: " Grid.Row="3"  Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,5,0"></TextBlock>
+            <TextBlock Text="{Binding PayPeriod.MedicareWithholding, StringFormat=C}" Grid.Row="3" Foreground="White" Grid.Column="1" VerticalAlignment="Center"></TextBlock>
 
-            <TextBlock Text="{Binding PayPeriod.SocialSecurityWithholding}" Grid.Row="3" Foreground="White" Grid.Column="1" VerticalAlignment="Center"></TextBlock>
+            
 
             <TextBlock Text="Total Withholdings: " Grid.Row="4"  Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,5,0"></TextBlock>
 
-            <TextBlock Text="{Binding PayPeriod.TotalWitholdings}" Grid.Row="4" Foreground="White" Grid.Column="1" VerticalAlignment="Center"></TextBlock>
+            <TextBlock Text="{Binding PayPeriod.TotalWitholdings, StringFormat=C}" Grid.Row="4" Foreground="White" Grid.Column="1" VerticalAlignment="Center"></TextBlock>
 
             <TextBlock Text="Net Pay: " Grid.Row="5"  Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,5,0"></TextBlock>
 
-            <TextBlock Text="{Binding PayPeriod.NetAmount}" Grid.Row="5" Foreground="White" Grid.Column="1" VerticalAlignment="Center"></TextBlock>
+            <TextBlock Text="{Binding PayPeriod.NetAmount, StringFormat=C}" Grid.Row="5" Foreground="White" Grid.Column="1" VerticalAlignment="Center"></TextBlock>
 
             <Button Click="SavePayInfoButton_Click" Grid.Row="6" Grid.ColumnSpan="2" Margin="100,5">
                 <TextBlock Text="Save pay info"></TextBlock>
