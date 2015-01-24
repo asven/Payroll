@@ -74,6 +74,16 @@
     </ApplicationDefinition>
     <Compile Include="Common\Constants.cs" />
     <Compile Include="Common\FederalWithholdingTaxBracket.cs" />
+    <Compile Include="PayrollDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PayrollDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PayrollDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -108,7 +118,30 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PayStub.rdlc" />
     <None Include="packages.config" />
+    <None Include="PayrollDataSet.xsc">
+      <DependentUpon>PayrollDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PayrollDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PayrollDataSet.xss">
+      <DependentUpon>PayrollDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollDataSet1.xsc">
+      <DependentUpon>PayrollDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PayrollDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PayrollDataSet1.xss">
+      <DependentUpon>PayrollDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

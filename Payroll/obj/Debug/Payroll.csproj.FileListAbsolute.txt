@@ -41,3 +41,16 @@ C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.Platform.xml
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Microsoft.Practices.ServiceLocation.xml
