@@ -112,12 +112,14 @@ namespace Payroll.ViewModels
             var dataset = sp.ExecuteDataSet();
 
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            reportDataSource1.Name = "PayrollDataSet";
+            reportDataSource1.Name = "GetPayStub";
             reportDataSource1.Value = dataset.Tables[0];
 
             ReportParameter[] param = new ReportParameter[2];
             param[0] = new ReportParameter("PayPeriodId", "5", true);
             param[1] = new ReportParameter("EmployeeId", this.SelectedEmployee.EmployeeID.ToString(), true);
+
+            report.SetParameters(param);
 
             report.DataSources.Add(reportDataSource1);
 

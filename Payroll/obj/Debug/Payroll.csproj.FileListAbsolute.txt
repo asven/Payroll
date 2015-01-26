@@ -56,3 +56,5 @@ C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\M
 C:\Users\Jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\RdlCompile.cache
 C:\Users\Jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\RdlCompile.compiled
 C:\Users\Jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\Payroll.csprojResolveAssemblyReference.cache
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug\RdlCompile.cache
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug\RdlCompile.compiled
