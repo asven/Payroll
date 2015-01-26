@@ -1,8 +1,11 @@
 ﻿using GalaSoft.MvvmLight;
+using Microsoft.Reporting.WinForms;
 using Payroll.Common;
 using SubSonic.Repository;
+using SubSonic.Schema;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -96,6 +99,34 @@ namespace Payroll.ViewModels
             this.PayPeriod = null;
 
             this.HoursWorked = 0;
+        }
+
+        internal void GeneratePayStub()
+        {
+            LocalReport report = new LocalReport();
+            report.ReportPath = @"..\..\Reports\Paystub.rdlc";
+
+            StoredProcedure sp = new StoredProcedure("GetEmployeePayStub"); 
+            sp.Command.AddParameter("@PayPeriodId", 5, System.Data.DbType.Int32);
+            sp.Command.AddParameter("@EmployeeId", this.SelectedEmployee.EmployeeID.ToString(), System.Data.DbType.Int32);
+            var dataset = sp.ExecuteDataSet();
+
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            reportDataSource1.Name = "PayrollDataSet";
+            reportDataSource1.Value = dataset.Tables[0];
+
+            ReportParameter[] param = new ReportParameter[2];
+            param[0] = new ReportParameter("PayPeriodId", "5", true);
+            param[1] = new ReportParameter("EmployeeId", this.SelectedEmployee.EmployeeID.ToString(), true);
+
+            report.DataSources.Add(reportDataSource1);
+
+            byte[] bytes = report.Render("PDF");
+
+            using (FileStream fs = new FileStream(@"C:\PayStubs\paystub" + DateTime.Now.Day +  DateTime.Now.Month + DateTime.Now.Year + ".pdf", FileMode.Create))
+            {
+                fs.Write(bytes, 0, bytes.Length);
+            }
         }
     }
 }

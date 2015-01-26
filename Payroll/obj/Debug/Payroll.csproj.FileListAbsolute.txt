@@ -1,7 +1,6 @@
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\bin\Debug\Payroll.exe.config
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\bin\Debug\Payroll.exe
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\bin\Debug\Payroll.pdb
-c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\Payroll.csprojResolveAssemblyReference.cache
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\MainWindow.baml
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\MainWindow.g.cs
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\App.g.cs
@@ -56,3 +55,4 @@ C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\M
 C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 C:\Users\Jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\RdlCompile.cache
 C:\Users\Jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\RdlCompile.compiled
+C:\Users\Jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\Payroll.csprojResolveAssemblyReference.cache
