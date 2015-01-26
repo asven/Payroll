@@ -1,7 +1,6 @@
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\bin\Debug\Payroll.exe.config
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\bin\Debug\Payroll.exe
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\bin\Debug\Payroll.pdb
-c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\Payroll.csprojResolveAssemblyReference.cache
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\MainWindow.baml
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\MainWindow.g.cs
 c:\users\jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\App.g.cs
@@ -41,3 +40,19 @@ C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.Platform.xml
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\RdlCompile.cache
+C:\Users\Jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\RdlCompile.compiled
+C:\Users\Jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\Payroll.csprojResolveAssemblyReference.cache
