@@ -58,3 +58,8 @@ C:\Users\Jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\R
 C:\Users\Jenny\documents\visual studio 2013\Projects\Payroll\Payroll\obj\Debug\Payroll.csprojResolveAssemblyReference.cache
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug\RdlCompile.cache
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug\RdlCompile.compiled
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Payroll.exe.manifest
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Payroll.application
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug\Payroll.exe.manifest
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug\Payroll.application
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Reports\PayStub.rdlc
