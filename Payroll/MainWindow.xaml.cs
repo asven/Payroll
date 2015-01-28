@@ -41,18 +41,14 @@ namespace Payroll
         private void ComputePayButton_Click(object sender, RoutedEventArgs e)
         {
             ViewModel.ComputePay();
-            GeneratePayStub();
+            this.ViewModel.GeneratePayStub();
         }
 
         private void SavePayInfoButton_Click(object sender, RoutedEventArgs e)
         {
-            ViewModel.SavePayPeriod();
-        }
+            string resultText = ViewModel.SavePayPeriod();
 
-        private void GeneratePayStub()
-        {
-            ViewModel.GeneratePayStub();
+            MessageBox.Show(resultText);
         }
-
     }
 }
