@@ -92,22 +92,27 @@ namespace Payroll.ViewModels
             this.PayPeriod = payPeriod;
         }
 
-        internal void SavePayPeriod()
+        internal string SavePayPeriod()
         {
             repo.Add<PayPeriod>(this.PayPeriod);
+
+            string resultText = GeneratePayStub();
+
 
             this.PayPeriod = null;
 
             this.HoursWorked = 0;
+
+            return resultText;
         }
 
-        internal void GeneratePayStub()
+        internal string GeneratePayStub()
         {
             LocalReport report = new LocalReport();
             report.ReportPath = @"..\..\Reports\Paystub.rdlc";
 
             StoredProcedure sp = new StoredProcedure("GetEmployeePayStub"); 
-            sp.Command.AddParameter("@PayPeriodId", 5, System.Data.DbType.Int32);
+            sp.Command.AddParameter("@PayPeriodId", this.PayPeriod.ID, System.Data.DbType.Int32);
             sp.Command.AddParameter("@EmployeeId", this.SelectedEmployee.EmployeeID.ToString(), System.Data.DbType.Int32);
             var dataset = sp.ExecuteDataSet();
 
@@ -116,7 +121,7 @@ namespace Payroll.ViewModels
             reportDataSource1.Value = dataset.Tables[0];
 
             ReportParameter[] param = new ReportParameter[2];
-            param[0] = new ReportParameter("PayPeriodId", "5", true);
+            param[0] = new ReportParameter("PayPeriodId", this.PayPeriod.ID.ToString(), true);
             param[1] = new ReportParameter("EmployeeId", this.SelectedEmployee.EmployeeID.ToString(), true);
 
             report.SetParameters(param);
@@ -125,10 +130,22 @@ namespace Payroll.ViewModels
 
             byte[] bytes = report.Render("PDF");
 
-            using (FileStream fs = new FileStream(@"C:\PayStubs\paystub" + DateTime.Now.Day +  DateTime.Now.Month + DateTime.Now.Year + ".pdf", FileMode.Create))
+            DateTime payPeriodBeginDate = GetPayPeriodBeginDate();
+
+            string fileName = @"C:\PayStubs\paystub" + payPeriodBeginDate.Month + "-" + payPeriodBeginDate.Day + "-" + payPeriodBeginDate.Year + "to" + DateTime.Now.Month + "-" + DateTime.Now.Day + "-" + DateTime.Now.Year + ".pdf";
+
+            using (FileStream fs = new FileStream(fileName, FileMode.Create))
             {
                 fs.Write(bytes, 0, bytes.Length);
             }
+
+            return "Paystub created " + fileName;
+        }
+
+        private DateTime GetPayPeriodBeginDate()
+        {
+            int difference = this.PayPeriod.Date.DayOfWeek.GetHashCode() - DayOfWeek.Monday.GetHashCode();
+            return DateTime.Now.AddDays(-difference);
         }
     }
 }
