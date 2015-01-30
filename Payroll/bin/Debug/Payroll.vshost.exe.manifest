@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Payroll.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Payroll.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Payroll" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -110,14 +110,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Payroll.exe" size="86472">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Payroll.exe" size="52680">
       <assemblyIdentity name="Payroll" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>58umuO9xg5NG+9D38hPFzUu8o4thvrhSNNpKGU2EXIU=</dsig:DigestValue>
+        <dsig:DigestValue>MNdJ4iz3Vg1Gu6LJOmrZfELdmhFW+ynlM6CCfXD8uVg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -161,6 +161,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>bLKDffKuEAL4BabKKy1Al7uBR18xNwKKVS+09Ktt+EI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Reports\PayStub.rdlc" size="33648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rEpsUvrUrdqJ2O3A5qQjQW1rpogD4XcIO88vvovhYUs=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
