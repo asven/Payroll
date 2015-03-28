@@ -36,6 +36,11 @@ namespace Payroll
             InitializeComponent();
 
             this.DataContext = new MainWindowViewModel();
+            this.ViewModel.PayPeriod = new Common.PayPeriod();
+            this.ViewModel.PayPeriod.ID = 1015;
+
+
+            this.ViewModel.GeneratePayStub();
         }
 
         private void ComputePayButton_Click(object sender, RoutedEventArgs e)

@@ -110,14 +110,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Payroll.exe" size="52680">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Payroll.exe" size="51712">
       <assemblyIdentity name="Payroll" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MNdJ4iz3Vg1Gu6LJOmrZfELdmhFW+ynlM6CCfXD8uVg=</dsig:DigestValue>
+        <dsig:DigestValue>DLNIY22vwB5S7aTZ0HK9lTRXlnEwzc1PcnAQJxH1kd4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -163,13 +163,13 @@
       <dsig:DigestValue>bLKDffKuEAL4BabKKy1Al7uBR18xNwKKVS+09Ktt+EI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Reports\PayStub.rdlc" size="33648">
+  <file name="Reports\PayStub.rdlc" size="40240">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>rEpsUvrUrdqJ2O3A5qQjQW1rpogD4XcIO88vvovhYUs=</dsig:DigestValue>
+      <dsig:DigestValue>tFAQ8DwQ5WL/yjXgI7u1fzVP7501O9ZKaWoa5wFXNks=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
