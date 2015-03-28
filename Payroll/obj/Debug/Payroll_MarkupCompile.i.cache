@@ -4,16 +4,28 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug\
+=======
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug\
+>>>>>>> 1333a61fe67aa661a4285933d792ec9da9716fd7
 Payroll
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\Jenny\Documents\Visual Studio 2013\Projects\Payroll\Payroll\App.xaml
 11151548125
 1884582142
 15-1820000729
 19-342103966
+=======
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\App.xaml
+11151548125
+2-1615609373
+15-1451554454
+19-1024777410
+>>>>>>> 1333a61fe67aa661a4285933d792ec9da9716fd7
 MainWindow.xaml;
 
 False

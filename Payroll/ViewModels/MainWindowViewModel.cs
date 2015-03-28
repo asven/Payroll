@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -108,8 +109,15 @@ namespace Payroll.ViewModels
 
         internal string GeneratePayStub()
         {
+
+            string codeBase = Assembly.GetExecutingAssembly().CodeBase;
+            UriBuilder uri = new UriBuilder(codeBase);
+            string path = Uri.UnescapeDataString(uri.Path);
+            string assemblyDirectory = Path.GetDirectoryName(path);
+
+
             LocalReport report = new LocalReport();
-            report.ReportPath = @"..\..\Reports\Paystub.rdlc";
+            report.ReportPath = assemblyDirectory + @"\Reports\Paystub.rdlc";
 
             StoredProcedure sp = new StoredProcedure("GetEmployeePayStub"); 
             sp.Command.AddParameter("@PayPeriodId", this.PayPeriod.ID, System.Data.DbType.Int32);

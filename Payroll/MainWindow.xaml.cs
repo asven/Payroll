@@ -41,7 +41,6 @@ namespace Payroll
         private void ComputePayButton_Click(object sender, RoutedEventArgs e)
         {
             ViewModel.ComputePay();
-            this.ViewModel.GeneratePayStub();
         }
 
         private void SavePayInfoButton_Click(object sender, RoutedEventArgs e)

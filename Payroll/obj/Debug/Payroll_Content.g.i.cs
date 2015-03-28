@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("reports/paystub.rdlc")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("lib/subsonic.core.dll")]
 
 
