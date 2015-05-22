@@ -110,14 +110,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Payroll.exe" size="51712">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Payroll.exe" size="52680">
       <assemblyIdentity name="Payroll" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DLNIY22vwB5S7aTZ0HK9lTRXlnEwzc1PcnAQJxH1kd4=</dsig:DigestValue>
+        <dsig:DigestValue>lmKTQ+5Umkgh0rNUGCVBaf9kAqBmTIFIN/O7ZYHZjy0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
