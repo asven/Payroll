@@ -18,7 +18,6 @@ C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Payroll.exe
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\Payroll.pdb
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\bin\Debug\SubSonic.Core.dll
-C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug\Payroll.csprojResolveAssemblyReference.cache
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug\MainWindow.baml
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug\MainWindow.g.cs
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Payroll\Payroll\obj\Debug\App.g.cs
